@@ -1,0 +1,23 @@
+{
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "your email",
+        "sender_password": "app_password"
+    },
+    "certificate": {
+        "template_path": "templates/certificate_template.png",
+        "font_path": "templates/fonts/certificate_font.ttf",
+        "font_size": 60,
+        "position": {
+            "x": 500,
+            "y": 300
+        }
+    },
+    "data": {
+        "participants_file": "data/participants.xlsx"
+    },
+    "output": {
+        "certificates_dir": "output/certificates"
+    }
+}
